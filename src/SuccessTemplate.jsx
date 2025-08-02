@@ -9,7 +9,7 @@ export const SuccessTemplate = () => {
   useEffect(() => {
     if (!id) return;
 
-    fetch(`https://immune-coral-pumped.ngrok-free.app/api/admin/createAlumni/${id}`)
+    fetch(`https://6cf6afd28729.ngrok-free.app/api/admin/createAlumni/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setMessage(data.message || "Invitation accepted!");
