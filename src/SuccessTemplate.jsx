@@ -17,6 +17,7 @@ export const SuccessTemplate = () => {
       .catch(() => {
         setMessage("Error accepting invitation.");
       });
+      console.log("Trigger");
   }, [id]);
 
   return (
