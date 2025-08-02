@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/invitation/:id" element={<SuccessTemplate />} />
+        <Route path="/invitation/accept/:id" element={<SuccessTemplate />} />
       </Routes>
     </Router>
   );
